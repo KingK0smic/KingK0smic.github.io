@@ -25,7 +25,7 @@
 .ds4 .trigger {
     width: 99px;
     height: 100%;
-    background: url(ps4-assets/triggers.svg);
+    background: url(ps4-assets/triggers.svg) no-repeat;
     opacity: 0;
 }
 
@@ -33,7 +33,7 @@
     float: left;
     width: 99px;
     height: 100%;
-    background: url(triggers1.svg);
+    background: url(triggers1.svg) no-repeat;
     opacity: 0;
 }
 
@@ -42,7 +42,7 @@
     background-position-x: 99px;
     width: 99px;
     height: 100%;
-    background: url(triggers2.svg);
+    background: url(triggers2.svg) no-repeat;
     opacity: 0;
 }
 
@@ -165,7 +165,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(ps4-assets/face.svg);
+    background: url(ps4-assets/face.svg) no-repeat;
 }
 
 .ds4 .button.pressed {
@@ -180,7 +180,7 @@ background-position: 0 -70px;
   position: absolute;
     width: 55px;
     height: 55px;
-    background: url(facex1.svg);
+    background: url(facex1.svg) no-repeat;
 }
 
 .ds4 .b {
@@ -190,7 +190,7 @@ background-position: 0 -70px;
   position: absolute;
     width: 55px;
     height: 55px;
-    background: url(faceo1.svg);
+    background: url(faceo1.svg) no-repeat;
 }
 
 .ds4 .x {
@@ -199,7 +199,7 @@ background-position: 0 -70px;
   position: absolute;
     width: 55px;
     height: 55px;
-    background: url(facesquare1.svg);
+    background: url(facesquare1.svg) no-repeat;
 }
 
 .ds4 .y {
@@ -208,7 +208,7 @@ background-position: 0 -70px;
   position: absolute;
     width: 55px;
     height: 55px;
-    background: url(facetriangle1.svg);
+    background: url(facetriangle1.svg) no-repeat;
 }
 
 .ds4 .sticks {
@@ -221,7 +221,7 @@ background-position: 0 -70px;
 
 .ds4 .stick {
     position: absolute;
-    background: url(sticks2.svg);
+    background: url(sticks2.svg) no-repeat;
     height: 94px;
     width: 94px;
 }
@@ -229,7 +229,7 @@ background-position: 0 -70px;
 .ds4 .stick.pressed.left {
     background-position-x: -96px;
   position: absolute;
-    background: url(sticks1.svg);
+    background: url(sticks1.svg) no-repeat;
     height: 94px;
     width: 94px;
 }
@@ -237,7 +237,7 @@ background-position: 0 -70px;
 .ds4 .stick.pressed.right {
     background-position-x: -192px;
   position: absolute;
-    background: url(sticks3.svg);
+    background: url(sticks3.svg) no-repeat;
     height: 94px;
     width: 94px;
 }
@@ -261,7 +261,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .face {
-    background: url(ps4-assets/dpad.svg);
+    background: url(ps4-assets/dpad.svg) no-repeat;
     position: absolute;
 }
 
@@ -279,7 +279,7 @@ background-position: 0 -70px;
     left: 44px;
     top: 0;
     background-position: -37px 0px;
-background: url(dpad2.svg);
+background: url(dpad2.svg) no-repeat;
     position: absolute;
 }
 
@@ -287,7 +287,7 @@ background: url(dpad2.svg);
     left: 44px;
     bottom: 0;
     background-position: 0px 0;
-background: url(dpad1.svg);
+background: url(dpad1.svg) no-repeat;
     position: absolute;
 }
 
@@ -295,7 +295,7 @@ background: url(dpad1.svg);
     top: 45px;
     left: 0;
     background-position: 104px 0;
-background: url(dpad3.svg);
+background: url(dpad3.svg) no-repeat;
     position: absolute;
 }
 
@@ -303,7 +303,7 @@ background: url(dpad3.svg);
     top: 45px;
     right: 0px;
     background-position: 52px 0;
-background: url(dpad4.svg);
+background: url(dpad4.svg) no-repeat;
     position: absolute;
 }
 
